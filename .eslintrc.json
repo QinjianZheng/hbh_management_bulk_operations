@@ -7,7 +7,7 @@
   "extends": ["google", "eslint-config-prettier"],
   "parserOptions": {
     "sourceType": "module",
-    "ecmaVersion": 12
+    "ecmaVersion": "latest"
   },
   "rules": {
     "new-cap": 0,

@@ -2,14 +2,18 @@
   "name": "hbh_management_bulk_operations",
   "version": "1.0.0",
   "description": "Bulk Operations Service for HBH Management",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "watch": "nodemon src/index.js"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "kafkajs": "^2.2.4"
+    "kafkajs": "^2.2.4",
+    "nodemon": "^3.0.3"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^18.5.0",
