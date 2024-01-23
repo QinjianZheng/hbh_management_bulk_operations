@@ -1,0 +1,26 @@
+{
+  "name": "hbh_management_bulk_operations",
+  "version": "1.0.0",
+  "description": "Bulk Operations Service for HBH Management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^18.5.0",
+    "commitlint": "^17.0.3",
+    "eslint": "8.5.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  }
+}

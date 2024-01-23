@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": ["google", "eslint-config-prettier"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 12
+  },
+  "rules": {
+    "new-cap": 0,
+    "require-jsdoc": 0,
+    "camelcase": 0
+  }
+}
